@@ -1,3 +1,16 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aalok-sathe/Learning-LaTeX/HEAD?urlpath=https%3A%2F%2Fgithub.com%2Faalok-sathe%2FLearning-LaTeX)
+
+### -1. Acknowledgements
+adapted from [github:`mpawliuk/Learning-`$\mathrm{\LaTeX}$](https://github.com/mpawliuk/Learning-LaTeX) by `aalok-sathe`
+
+this is an interactive Jupyter notebook to be used for an introduction to $\mathrm{\LaTeX}$ (equations) as rendered in Markdown. please read through the (already rendered) cells of text, and execute cells wherever indicated. 
+
+to execute a cell when prompted, do:
+1. **highlight** the cell (you can do this either by clicking on it or using arrow keys to navigate)
+2. once you have highlighted the cell, **run it!** (use Ctrl+Enter or Cmd+Enter, or use the "Run" button in the panel above)
+
+<!--
+
 <h2>1. Authentic resource</h2>
 <p>The <a rel="noopener" href="https://github.com/mpawliuk/Learning-LaTeX" target="_blank">jupyter notebook is available for download here</a>. The intention is for it to be run on <a rel="noopener" href="http://utoronto.syzygy.ca/" target="_blank">your free UToronto syzygy server</a> or <a rel="noopener" href="https://ucalgary.syzygy.ca/" target="_blank">your free UCalgary syzygy server</a>. The document can be read on Github, but on Syzygy it can be <em>interacted with</em>.</p>
 <h2>2. Background</h2>
@@ -29,3 +42,5 @@
 <li>Kelly, Patrick, and Isabelle Barette-Ng. "Small FLICS to Big Flips: A Step-by-Step Guide to Flipping Your Classroom." (2015). <a rel="noopener" href="https://prism.ucalgary.ca/handle/1880/50856">https://prism.ucalgary.ca/handle/1880/50856</a></li>
 </ol>
 <p></p>
+
+-->
