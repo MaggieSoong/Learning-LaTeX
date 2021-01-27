@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aalok-sathe/Learning-LaTeX/HEAD?urlpath=https%3A%2F%2Fgithub.com%2Faalok-sathe%2FLearning-LaTeX)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aalok-sathe/Learning-LaTeX/HEAD)
 
 ### -1. Acknowledgements
 adapted from [github:`mpawliuk/Learning-`$\mathrm{\LaTeX}$](https://github.com/mpawliuk/Learning-LaTeX) by `aalok-sathe`
