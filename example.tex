@@ -1,0 +1,205 @@
+\documentclass[11pt]{article}
+% \usepackage[width=7.2in,height=8in]{geometry}
+% \usepackage[margin=2cm]{geometry}
+
+\usepackage{booktabs}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{lipsum}
+\usepackage{multicol}
+% \usepackage{tikz}
+
+\title{On the cardinality of $\mathbb{U}$}
+\author{Foo bar}
+\date{}
+% \pagenumbering{???}
+
+\begin{document}
+\maketitle
+
+% \begin{abstract}
+%     brief summary of nothing
+% \end{abstract}
+
+pretty much empty right now
+
+
+% \vskip1em
+
+% HEADINGS
+
+% \begin{flushright}
+%     \begin{tabular}{rl}
+%         \toprule
+%         name:&      foo bar\\
+%         section:&   the section at very morning\\
+%         \midrule
+%         homework:&  17\\
+%         \bottomrule
+%     \end{tabular}
+% \end{flushright}
+\vskip3em
+% \rule{\textwidth}{1pt}
+%
+%
+% BASICS
+% document classes, page title, author, date, numbering
+% begin and end document
+% environments
+% comments
+%
+% declarations or switches in LaTeX take effect once, don't need terminator
+% switches can be enclosed in blocks of code to limit their scope
+
+% TYPEFACES
+to use \textbf{bold text} ....
+
+don't mind if I insert some {\bfseries bold text} right here
+and some {\itshape italicized text} over here
+{\ttfamily ttfamily} produces {\ttfamily typewriter-like} text
+{\sffamily sffamily} produces {\sffamily sans serif} text
+%
+% SIZES
+% \tiny text
+% \footnotesize text
+% \small text
+% \large text
+% \Large text
+% \LARGE text
+{\huge text}
+{\Huge text}
+
+let's say you have some text but you want only {\LARGE this part} to be large
+%
+\paragraph{problem 1.2} the text just conitnues here
+%
+\section{math}
+\subsection{type theory}
+\subsubsection*{lambda calculus}
+$(x) \mapsto (x, 2x)$
+
+\subsubsection{normal calculus}
+some stuff here
+
+
+%
+% EQNS
+\[
+    4x + 3y = 42
+\]
+%
+\begin{alignat}{3}
+    \text{equation 1 goes here}\label{cooleqn1}
+    3x - 4\pi + 20 &= &\infty\\
+    \begin{bmatrix}{2}
+        1& 4\\
+        5& 9\\
+        4& 6\\
+        t& t'
+    \end{bmatrix} \cdot \begin{vmatrix}{3}
+                            5&  7&  2\\
+                            3&  1&  0\\
+                            -1& 8&  \alpha
+                        \end{vmatrix} &= -&\infty\\
+    \int_{-\infty}\int_{0}^{\infty} {e^7}\cdot dx &= 5\\
+    \sum_{0}^{100} n
+\end{alignat}
+%
+% SETS
+$A \cup B$
+
+$\mathbb{R} \setminus \{x \in \mathbb{R}: x \equiv 0\; (\text{mod}\; 2)\}$
+
+$A \cap B$
+%
+% LISTS
+\begin{itemize}
+    \item bullet
+    \item point
+\end{itemize}
+
+\begin{enumerate}[(i)]
+    \item some item
+    \item hopefully 2
+    % \item[$\pi$] another item
+    % \item[$\mu$] third item
+    % \item[$\epsilon$] idk
+\end{enumerate}
+%
+% FORMATTING GOOD PRACTICES
+\[
+    \int\int\int
+        \left(
+            x + \frac{e^{(e^{e^x}!)}}{\frac{\sqrt{3}}{2}}
+        \right)
+        \cdot
+        dx
+\]
+%
+% PROOFS
+{\bfseries Theorem}\hskip2em To prove that $\not\forall x \in \mathbb{N}\quad 3\mid x$
+
+To prove that $\exists x \in \mathbb{N}$ such that $(3\not|x)$
+%
+\begin{proof}
+    Consider $3 \stackrel{?}{\mid} 10$.
+    If possible, let $3\mid10$.
+    Then,
+
+    \begin{alignat}{3}
+        & &\exists k \in \mathbb{Z} \quad 10 =&\ 3k \label{existseqn}\\
+        \eqref{existseqn}\implies& &k =&\ \frac{10}{3}
+    \end{alignat}
+
+\end{proof}
+
+% LOGIC [and TABLES]
+\begin{tabular}{ccccp{1em}l}
+    \toprule
+    $a$&    $b$&    $a \land b$&    $c$&&   $(a \land b) \lor c$\\
+    \midrule
+    0&      0&      0&              0&&     0\\
+    \bottomrule
+\end{tabular}
+
+% REF EXAMPLE
+% As we can see from \eqref{cooleqn1}, P=NP.
+% Also, this is some paper Donald E. Knuth wrote \cite{knuth}
+
+% ALGORITHM
+\begin{algorithm}
+    \caption{instantSort}
+    \begin{algorithmic}[3]
+        \State {{\bfseries input:} A}
+        \If{$A$ is sorted}
+            \State \Return{the same sorted array $A$}
+        \Else
+            \State \Return{\texttt{instantSort}(the same array $A$)}
+            \Comment{sorts the array?}
+        \EndIf
+    \end{algorithmic}
+\end{algorithm}
+%
+% MULTICOL
+% \begin{multicols}{2}
+%     \lipsum{1}
+% \end{multicols}
+%
+% TIKZ
+% \begin{tikzpicture}
+%
+% \end{tikzpicture}
+
+I want to include an in-text citation \cite{somesciencepeople1977}.
+
+sodgajgfsdfkjasgfas
+
+gfasjkdgfkjadsf
+
+\nocite{*} % Insert references even if not cited
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}
