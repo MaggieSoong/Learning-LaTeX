@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aalok-sathe/Learning-LaTeX/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MaggieSoong/Learning-LaTeX/HEAD)
 
 ## Welcome to this LaTeX tutorial using Jupyter notebooks, Binder, and Overleaf!
 There are three components to this tutorial.
