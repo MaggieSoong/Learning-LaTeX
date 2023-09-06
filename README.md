@@ -15,7 +15,5 @@ This is an interactive Jupyter notebook to be used for an introduction to $\math
 
 To execute a cell when prompted, do:
 1. **Highlight** the cell (you can do this either by clicking on it or using arrow keys to navigate).
-2. Once you have highlighted the cell, **run it!** (use Ctrl+Enter or Cmd+Enter, or use the "Run" button in the panel above).
-
-(You may need to change the cell's format from Python to Markdown)
+2. Once you have highlighted the cell, change the cell's format from Python to Markdown, and then **run it!** (use Ctrl+Enter or Cmd+Enter, or use the "Run" button in the panel above).
 
